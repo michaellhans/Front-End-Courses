@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+  background: #e4e4e4;
+  margin: 0px;
+}
+
+h3,
+h2,
+h4 {
+  color: rgb(104, 32, 10);
+}
+
+main {
+  width: 1200px;
+  margin: auto;
+  font-family: Arial;
+}
+
+header {
+  border-bottom-width: 2px;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  margin: 0px;
+  margin-bottom: 8px;
+  background-color: #000000;
+  padding: 12px;
+}
+
+header > h1 {
+  margin: 0px;
+}
+
+section {
+  width: 48%;
+  height: 1000px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section > h3 {
+  margin-top: 15px;
+}
+
+#site-title {
+  font-family: 'Libre Baskerville', serif;
+  color: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
+
+.article-image {
+  height: 200px;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.articleBlog {
+  width: 29.6%;
+  height: 400px;
+  display: inline-block;
+  border: 1px solid;
+  padding: 10px;
+  margin: 5px;
+  vertical-align: top;
+  background-color: white;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
