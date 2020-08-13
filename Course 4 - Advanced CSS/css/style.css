@@ -83,3 +83,22 @@ a:hover {
   color: #bd0149;
   text-decoration: none;
 }
+
+#query-search {
+  display: block;
+  width: 97.5%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial;
+  border-radius: 100px;
+  border: 1px solid #000;
+}
+
+#query-search:focus {
+  background: #faffdd;
+  outline: none;
+}
+
+.articleBlog:active {
+  opacity: 0.5;
+}
